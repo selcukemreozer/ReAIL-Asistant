@@ -21,7 +21,6 @@ response = ollama.chat(
     }]
 )
 
-print(response)
 end = time()
 # two decimal places
 print("Time taken: ", round(end-start, 2))
