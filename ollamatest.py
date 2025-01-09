@@ -20,7 +20,7 @@ response = ollama.chat(
         'images': ['image.png']
     }]
 )
-
+# TO DO: change model to qwen vision model 
 end = time()
 # two decimal places
 print("Time taken: ", round(end-start, 2))
